@@ -1,5 +1,5 @@
 # binlog4mbed
-Demo code of the fast binary data logging for __mbed LPC1768__.
+Sample code of the fast binary data logging for __mbed LPC1768__.
 
 This code is for __gcc4mbed__ compiler: https://github.com/adamgreen/gcc4mbed
 
