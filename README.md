@@ -9,7 +9,7 @@ Binary file saved in mbed is readed by MATLAB code in "./load binary/"
 
 * __Compile mbed code__
 
-Compile source code and move to strage of  mbed LPC1768.
+Compile source code, and generated "fwrite_test.bin" move to the local storage of  mbed LPC1768.
 
 "DATA.LOG" is generated in local storage in mbed.
 
