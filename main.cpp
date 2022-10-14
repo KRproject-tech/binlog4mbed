@@ -67,7 +67,7 @@ int main()
 	}
 	
 	led2 = 1;
-    flipper.attach_us(&flip, INT_T); // the address of the function to be attached (flip) and the interval (2 seconds)
+    flipper.attach_us(&flip, INT_T); // the address of the function to be attached (flip) and the interval (us)
 
     // spin in a main loop. flipper will interrupt it to call flip
     while(1) {
