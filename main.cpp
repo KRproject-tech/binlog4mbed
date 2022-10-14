@@ -22,7 +22,7 @@ Serial pc(USBTX, USBRX);
 Ticker flipper;
 DigitalOut led1(LED1);
 DigitalOut led2(LED2);
-LocalFileSystem local("local");  // ƒ}ƒEƒ“ƒgƒ|ƒCƒ“ƒg‚ğ’è‹`iƒfƒBƒŒƒNƒgƒŠƒpƒX‚É‚È‚éj
+LocalFileSystem local("local");  // ãƒã‚¦ãƒ³ãƒˆãƒã‚¤ãƒ³ãƒˆã‚’å®šç¾©ï¼ˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒ‘ã‚¹ã«ãªã‚‹ï¼‰
 FILE *fp0;
 
 
@@ -48,7 +48,13 @@ void flip() {
 	for(idx=0;idx<3;idx++) 
 		data[2+idx] = (short)( 100*out[idx] );
 
-	fwrite( data, sizeof( short), 5, fp0);
+	if(global_time <= 20 )
+		fwrite( data, sizeof( short), 5, fp0);	
+	else{
+		if( fp0 )
+			fclose( fp0);
+	}
+		
 }
 
 int main() 
