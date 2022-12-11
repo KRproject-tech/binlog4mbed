@@ -8,7 +8,7 @@ Binary file saved in mbed is read by MATLAB code in "./load binary/"
 
 ## Format
 
-Data is saved as short int (2 Bytes).
+Data is written as short int (2 Bytes) in "DATA.LOG".
 
 ![image](https://user-images.githubusercontent.com/114337358/206899316-ff17f5a5-9f0d-494a-b434-a7b967445486.png)
 
