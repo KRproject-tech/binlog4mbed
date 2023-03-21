@@ -1,3 +1,16 @@
+**Communication**
+
+<a style="text-decoration: none" href="https://twitter.com/hogelungfish" target="_blank">
+    <img src="https://img.shields.io/badge/twitter-%40hogelungfish-1da1f2.svg" alt="Twitter">
+</a>
+<p>
+
+**Language**
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="60"/>
+<p>
+
 # BinLog4mbed
 Sample code of the __Fast__ binary data logging for __mbed LPC1768__.
 
