@@ -38,3 +38,6 @@ Compile source code, and generated "fwrite_test.bin" move to the local storage o
 * __Read binary file__
 
 Read the generated file by "./load binary/plot_data.m"
+    
+![図2](https://github.com/KRproject-tech/binlog4mbed/assets/114337358/6125f9b6-675b-451e-999a-dcf7fc5243d8)
+
