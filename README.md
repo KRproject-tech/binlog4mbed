@@ -17,7 +17,7 @@ Sample code of the __Fast__ binary data logging for __mbed LPC1768__.
 
 This code is for __gcc4mbed__ compiler: https://github.com/adamgreen/gcc4mbed
 
-Binary file saved on local storage is read by __MATLAB code__ in "./load binary/" or __Python code__ in "./load binary_Py/".
+Binary file saved on local storage is read by __MATLAB code__ in "./load binary/" or __Python code on Anaconda environments__ in "./load binary_Py/".
 
 
 ## Format
